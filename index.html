@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="style.css"/>
+        <script src="main.js"></script>
+        
+
+    </head>
+
+
+
+    <body>
+
+        <div id="top">
+            <img src="images/logo.png" alt="Logo">
+
+            <br/>
+            <br/>
+
+            <label> Jogar contrar CPU:
+                <input type="radio" name="_bot" id="_bot" value="s">Sim
+                <input type="radio" name="_bot" id="_bot" value="n" checked>Não
+            </label>
+        </div>
+
+        <div id="person_back">
+            <figure class="persons person_select" id="player_Finn">
+                <img  src="images/Finn.png">
+
+                <label id="score_Finn">👑0</label>
+
+            </figure>
+
+
+            <figure class="persons" id="player_Jake">
+                <img  src="images/Jake.png">
+
+                <label id="score_Jake">👑0</label>
+            </figure>
+        </div>
+
+        <div id="jogo">
+            <table cellspacing="8px">
+                <tr>
+                    <td id="slot1" onclick="Cliquei(this.id)"></td>
+                    <td id="slot2" onclick="Cliquei(this.id)"></td>
+                    <td id="slot3" onclick="Cliquei(this.id)"></td>
+                </tr>
+                <tr>
+                    <td id="slot4" onclick="Cliquei(this.id)"></td>
+                    <td id="slot5" onclick="Cliquei(this.id)"></td>
+                    <td id="slot6" onclick="Cliquei(this.id)"></td>
+                </tr>
+                <tr>
+                    <td id="slot7" onclick="Cliquei(this.id)"></td>
+                    <td id="slot8" onclick="Cliquei(this.id)"></td>
+                    <td id="slot9" onclick="Cliquei(this.id)"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="fim_de_jogo">
+            <br/>
+            <label>Empate!</label>
+
+            <br/>
+            <button onclick="ReiniciarJogo()">Reiniciar</button>
+        </div>
+
+    </body>
+
+</html>
