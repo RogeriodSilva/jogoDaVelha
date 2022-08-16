@@ -23,8 +23,8 @@ var tipo_de_vitorias = [
 
 //Configurações do BOT
 var bot_jogada = 0;
-var bot_jogar = 0;
-var bot_rebater = 100;
+var bot_jogar = 50;
+var bot_rebater = 50;
 
 
 
